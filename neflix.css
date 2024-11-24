@@ -1,0 +1,412 @@
+body{
+    margin:0;
+    background-color:black;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items: center;
+
+}
+.main-section{
+background-image:url("set\ of\ film.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+height:600px;
+width:90%;
+padding:20px;
+margin-left:50px;
+
+
+}
+.main-section h2{
+    color:red;
+    font-size:30px;
+    font-family:serif;
+    float:left;
+    text-transform: uppercase;
+}
+.main-section select{
+    float:right;
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:2px;
+    width:100px;
+    margin-top:30px;
+    margin-right:150px;
+    color:white;
+    padding:10px;
+}
+.main-section select option{
+    background-color:black;
+}
+input[type="submit"]{
+    background-color:red;
+    padding:10px;
+    font-size:20px;
+    font-family:serif;
+    cursor:pointer;
+    float:right;
+    margin-top:30px;
+    border:1px solid red;
+    border-radius:2px;
+    color: white;
+    margin-right:-200px;
+}
+.main-section div{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size:20px;
+    color:white;
+    font-family:serif;
+    margin-top:200px;
+}
+input[type="email"]{
+    padding:10px;
+    background-color:transparent;
+    border-radius:2px;
+    border:1px solid white;
+    width:250px;
+}
+input[type="email"]::placeholder{
+    color:white;
+    font-size:15px;
+    font-family:serif;
+}
+form{
+  display:flex;  
+  flex-direction:row;
+  margin-top:-10px;
+  gap:15px;
+}
+form button{
+    background-color:red;
+    padding:10px;
+    font-family:serif;
+    font-size:15px;
+    cursor:pointer;
+    border:1px solid red;
+    border-radius:2px;
+    color: white;
+width:150px;
+}
+hr{
+    
+    width:93%;
+    margin-left:70px;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+    color:white;
+    font-size:20px;
+    font-family:serif;
+    padding:20px;
+}
+.sub-cont{
+    display:block;
+}
+.container img{
+    width:500px;
+    height:300px;
+    border-radius:5px;
+}
+.minor-container{
+    padding:10px;
+    display:block;
+    border-radius:5px;
+    background-color:rgb(56, 52, 52);
+    color:white;
+    font-size:20px;
+    font-family:serif;
+    width:60%;
+    height:150px;
+
+}
+.minor-container button{
+    border:none;
+    background-color:transparent;
+    color:white;
+    font-size:20px;
+    font-family:serif;
+    position:relative;
+    display:inline-block;
+
+
+}
+ .tooltiptext{
+    visibility:hidden;
+    width:250px;
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+    position:absolute;
+    z-index:1;
+    top:100%;
+    left:50%;
+    color:black;
+
+}
+.minor-container button:hover .tooltiptext{
+    visibility: visible;
+}
+.text{
+    color:white;
+    font-size:20px;
+    font-family:serif
+}
+.minor-container hr{
+    width:100%;
+    margin-left:-5px;
+}
+footer{
+ 
+ padding:10px;
+ background-color:none;
+ width:93%;
+ height:400px;
+ margin-left:20px;
+ bottom:0;
+}
+footer .minor-section {
+    display:flex;
+    justify-content: space-between;   
+    flex-direction:row;
+    padding:10px;
+    color:text;
+}
+footer div{
+    display:block;
+    color:white;
+    font-size:20px;
+    font-family:serif;
+    text-decoration:underline;
+}
+.minor-section select{
+    float:right;
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:2px;
+    width:100px;
+    margin-top:30px;
+    margin-right:150px;
+    color:white;
+    padding:10px;
+}
+.minor-section select option{
+    background-color:black;
+}
+
+@media(max-width:450px){
+    body{
+        margin:0;
+        background-color:black;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+
+    }
+    .main-section{
+    background-image:url("set\ of\ film.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:700px;
+    width:60%;
+    padding:20px;
+    margin-left:-0px;
+    
+    
+    }
+    
+    .main-section h2{
+        color:red;
+        font-size:20px;
+        font-family:serif;
+        float:left;
+        text-transform: uppercase;
+    }
+   .main-section select{
+        float:right;
+        background-color:transparent;
+        border:1px solid white;
+        border-radius:2px;
+        width:100px;
+        margin-top:10px;
+        margin-right:0px;
+        color:white;
+        padding:10px;
+    }
+    .main-section select option{
+        background-color:black;
+    }
+    input[type="submit"]{
+        background-color:red;
+        padding:10px;
+        font-size:20px;
+        font-family:serif;
+        cursor:pointer;
+        float:right;
+        margin-top:20px;
+        border:1px solid red;
+        border-radius:2px;
+        color: white;
+        margin-right:10px;
+    }
+    .main-section div{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        
+        font-size:20px;
+        color:white;
+        font-family:serif;
+        margin-top:200px;
+    }
+    input[type="email"]{
+        padding:10px;
+        background-color:transparent;
+        border-radius:2px;
+        border:1px solid white;
+        width:200px;
+    }
+    input[type="email"]::placeholder{
+        color:white;
+        font-size:15px;
+        font-family:serif;
+    }
+    form{
+      display:flex;  
+      flex-direction:column;
+      margin-top:-10px;
+      gap:15px;
+    }
+    form button{
+        background-color:red;
+        padding:10px;
+        font-family:serif;
+        font-size:15px;
+        cursor:pointer;
+        border:1px solid red;
+        border-radius:2px;
+        color: white;
+    width:220px;
+    }
+    hr{
+        
+        width:80%;
+        margin-left:20px;
+    }
+    .container{
+        display:flex;
+        flex-direction:column;
+        gap:40px;
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        padding:20px;
+        
+    }
+    .sub-cont{
+        display:block;
+        width:200px;
+        margin-left:-30px;
+    }
+    .container img{
+        width:200px;
+        height:300px;
+        border-radius:5px;
+    }
+    .minor-container{
+        padding:10px;
+        display:block;
+        border-radius:5px;
+        background-color:rgb(56, 52, 52);
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        width:70%;
+        height:250px;
+        margin-left:-30px;
+    
+    }
+    .minor-container button{
+        border:none;
+        background-color:transparent;
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        position:relative;
+        display:inline-block;
+    
+    
+    }
+     .tooltiptext{
+        visibility:hidden;
+        width:250px;
+        background-color:white;
+        padding:10px;
+        border-radius:5px;
+        position:absolute;
+        z-index:1;
+        top:100%;
+        left:50%;
+        color:black;
+    
+    }
+    .minor-container button:hover .tooltiptext{
+        visibility: visible;
+    }
+    .text{
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        width:250px;
+    }
+    .minor-container hr{
+        width:100%;
+        margin-left:-5px;
+    }
+    footer{
+     
+     padding:10px;
+     background-color:none;
+     width:50%;
+     height:900px;
+     margin-left:-70px;
+     bottom:0;
+    }
+    footer .minor-section {
+        display:flex;
+        justify-content: space-between;   
+        flex-direction:column;
+        padding:10px;
+        color:text;
+    }
+    footer div{
+        display:block;
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        text-decoration:underline;
+    }   
+    .minor-section select{
+        float:right;
+        background-color:transparent;
+        border:1px solid white;
+        border-radius:2px;
+        width:100px;
+        margin-top:30px;
+        margin-right:70px;
+        color:white;
+        margin-top:-10px;
+        padding:10px;
+    }
+    .minor-section select option{
+        background-color:black;
+    }
+}
